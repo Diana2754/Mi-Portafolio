@@ -1,0 +1,218 @@
+body{
+
+    margin: 0;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: linear-gradient( to right, rgb(8, 39, 126), rgb(121, 151, 236)) ;
+    text-align: center;
+    
+}
+
+.contenedor-galeria{ 
+  width: 100%; 
+  overflow: hidden; 
+  padding: 60px 0; 
+}
+
+
+header{
+  height: 100vh;
+  background-image: url(../img/computadora.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+
+}
+
+.portada{
+  width: 100%;
+  max-width: 1200px;
+  height: 50px;
+  overflow: hidden; 
+  padding: 60px 0;
+}
+
+.copy{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 247, 247); 
+  font-size: 2em; 
+  text-align: center;
+  text-shadow: 20px; 
+
+}
+h1{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 247, 247); 
+  font-size: 3em; /* Ajusta el tamaño del texto según tus necesidades */
+  text-align: center;
+  text-shadow: 20px; 
+}
+
+:root{
+  scroll-behavior: smooth;
+}
+
+
+nav{
+  display: flex;
+  justify-content: space-evenly;
+  background-size: contain;
+}
+
+.menu a{
+  text-decoration: none;
+  color:beige;
+  text-shadow: whitesmoke;
+}
+
+footer,
+.menu{
+  background-color:rgb(19, 19, 109);
+}
+.menu a.active,
+.menu a:hover{
+  text-shadow: 0 0 .25rem;
+  border-color: azure;
+}
+
+.img-romi,
+.img-diego{
+  display: flex;
+  height: 10%;
+  width: 10%;
+  border-radius: 12rem;
+
+}
+
+.img-diana{
+  border-radius:16rem;
+  height: 30%;
+  width: 30%;
+  border: 5px solid rgb(0, 0, 0);
+ 
+  
+
+}
+
+.marco{
+  background-color: rgb(19, 19, 109);    
+  border-radius: 5px;
+  text-decoration: underline;
+  color: antiquewhite;
+  text-shadow: 5px;
+  text-align: center;
+}
+
+.social{
+  display: flex;
+  justify-content: space-evenly;
+  gap: .5rem;
+
+}
+
+.social a{
+  width: 4rem;
+  height: 4rem;
+  background-color: beige;
+  border-radius: 2.5rem;
+  background-position: center;
+  background-size: contain;
+  border: solid  aliceblue;
+  
+  
+}
+
+.cv{
+ background-image: url("../img/cv.jpg");
+ 
+}
+.linkedin{
+  background-image: url("../img/linkedin.png");
+}
+.github{
+  background-image: url("../tecnologias/github.png");
+}
+
+.presentacion{
+  
+  padding: 5%;
+  padding-right: 20%;
+  padding-left: 20%;
+}
+
+.fondo{
+  background-color: rgb(43, 43, 131);
+  border-radius: 5%;
+  padding-top: 5%;
+  
+}
+
+.tecnologias{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  text-align: center;
+
+  
+}
+.texto{
+  color: rgb(247, 247, 247);
+  padding-bottom: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.grow-proyecto{
+  width: 80%;
+  height: auto;
+  border-radius: 8px;
+ 
+  
+}
+
+.proyectos{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  
+ 
+  
+}
+.proyectos div {
+  flex: 1; 
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify; /
+
+}
+
+
+.grow-proyecto:hover{
+  cursor: pointer;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); 
+}
+
+.titulo-proyecto{
+  color: aliceblue;
+  padding-bottom: 3%;
+}
+
+.cv:hover,
+.linkedin:hover,
+.github:hover{
+  box-shadow: 0 0 10px 5px azure; 
+  border: 2px solid rgb(46, 194, 194); 
+}
