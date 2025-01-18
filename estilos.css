@@ -19,7 +19,7 @@ body{
 
 header{
   height: 100vh;
-  background-image: url(/img/computadora.jpg);
+  background-image: url("img/computadora.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -139,14 +139,14 @@ footer,
 }
 
 .cv{
- background-image: url("/img/cv.jpg");
+ background-image: url("img/cv.jpg");
  
 }
 .linkedin{
-  background-image: url("/img/linkedin.png");
+  background-image: url("img/linkedin.png");
 }
 .github{
-  background-image: url("/tecnologias/github.png");
+  background-image: url("tecnologias/github.png");
 }
 
 .presentacion{
