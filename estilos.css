@@ -84,12 +84,19 @@ footer,
   border-color: azure;
 }
 
-.img-romi,
-.img-diego{
+.circular{
   display: flex;
   height: 10%;
   width: 10%;
   border-radius: 12rem;
+
+}
+
+.cuadrado{
+  display: flex;
+  height: 10%;
+  width: 10%;
+  border-radius: 0;
 
 }
 
