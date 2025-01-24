@@ -139,14 +139,14 @@ footer,
 }
 
 .cv{
- background-image: url("../img/cv.jpg");
+ background-image: url("img/cv.jpg");
  
 }
 .linkedin{
-  background-image: url("../img/linkedin.png");
+  background-image: url("img/linkedin.png");
 }
 .github{
-  background-image: url("../tecnologias/github.png");
+  background-image: url("tecnologias/github.png");
 }
 
 .presentacion{
