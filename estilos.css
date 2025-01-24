@@ -19,7 +19,7 @@ body{
 
 header{
   height: 100vh;
-  background-image: url(../img/computadora.jpg);
+  background-image: url("img/computadora.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -182,7 +182,8 @@ footer,
   padding-right: 3%;
 }
 
-.grow-proyecto{
+.grow-proyecto,
+.tic-tac-toe-proyecto{
   width: 80%;
   height: auto;
   border-radius: 8px;
@@ -208,7 +209,8 @@ footer,
 }
 
 
-.grow-proyecto:hover{
+.grow-proyecto:hover
+.tic-tac-toe-proyecto:hover{
   cursor: pointer;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); 
 }
